@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import '../App.css'
 
 const child = () => {
 
@@ -48,18 +49,19 @@ const child = () => {
   }
   return (
     <div>
-      <form action="" onSubmit={handleSubmit}>
+      <form action="" onSubmit={handleSubmit} className='form-container'>
        <label htmlFor="">Task name</label><br />
        <input type="text" name="" id="" onChange={handleTaskname} value={taskName}/>
        <br />
-       <label htmlFor="">start</label><br />
+       <label htmlFor="">Starting Date</label><br />
        <input type="date" onChange={handleStartDate} value={startDate} />
        <br />
-       <label htmlFor="">end</label><br />
+       <label htmlFor="">Ending Date</label><br />
        <input type="date" onChange={handleEndDate} value={endDate} />
        <br />
-       <label htmlFor="">desc</label><br />
-       <input type="text" onChange={handleTaskDesc} value={taskDesc} />
+       <label htmlFor="">Task Description</label><br />
+       <textarea name="" id="" onChange={handleTaskDesc} value={taskDesc}></textarea>
+       
        <br />
 
        <button onClick={handleSubmit}>Submit</button>

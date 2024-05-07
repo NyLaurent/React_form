@@ -1,8 +1,78 @@
-.dive{
-    font-size: 90px;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: lightcoral;
-   
-}
+/* form{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: lightblue;
+    padding-left: 90px;
+    padding-top:  60px;
+    padding-bottom:  0px;
+
+    input{
+        width: 250px;
+        height: 25px;
+        padding: 6px;
+    }
+    label{
+        font-size: 20px;
+        font-family: 'Poppins',sans-serif;
+        padding: 50px;
+        
+    }
+    
+    textarea{
+        width: 250px;
+        height: 80px;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        margin: auto;
+    }
+    
+    
+} */
+
+
+/* Style for the form container */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for input fields */
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  /* Style for the Submit button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the Submit button */
+  button:hover {
+    background-color: #45a049;
+  }
+  
